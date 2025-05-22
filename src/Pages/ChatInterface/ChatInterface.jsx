@@ -18,10 +18,10 @@ const ChatInterface = () => {
   const [displayedTexts, setDisplayedTexts] = useState({});
 
   const examplePrompts = [
-    "தடை செய்யப்பட்ட பகுதிகளுக்கு செல்வதற்காக பொது இடத்தில் ராணுவ சீருடை அணிந்து, ராணுவ வீரர் போல் நடந்து பிடிபட்டனர்.",
-    "அண்டை நாட்டின் எல்லையில் சட்டவிரோதமாக ஒரு நபர் திருடப்பட்ட சொத்துகளை வாங்குகிறார். IPC பிரிவு 127ன் படி என்ன விளைவுகள்?",
-    "ஒரு பொது ஊழியர் தப்பிக்க அனுமதிக்கிறார். IPC பிரிவு 128ன் கீழ் அவர் எதிர்கொள்ளக்கூடிய தண்டனை என்ன?",
-    "தேசத்துரோகத்தை தூண்ட முயற்சித்ததற்காக, IPC பிரிவு 124A இன் கீழ் என்ன தண்டனைகளை எதிர்கொள்ளலாம்?",
+    "Who has the authority to make transfers between different appointing jurisdictions in the Tamil Nadu Dairy Development Subordinate Service?",
+    "What is the probation period for a person directly appointed to a post in the Tamil Nadu Dairy Development Subordinate Service?",
+    "Can a Government servant accept a gift from a relative during a family event, and what are the reporting requirements?",
+    "What are the conditions under which a Government servant may be presumed to have contravened the rule regarding insolvency and habitual indebtedness?",
   ];
 
   useEffect(() => {
@@ -273,7 +273,7 @@ const ChatInterface = () => {
             />
             <div className="ml-3">
               <p className="font-bold text-[#f8fafc] bg-gradient-to-r from-[#06b6d4] to-[#7c3aed] bg-clip-text text-transparent">
-                Copsify AI
+                CopGuide AI
               </p>
               <div className="flex items-center gap-2 mt-1">
                 <svg

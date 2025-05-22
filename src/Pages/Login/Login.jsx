@@ -47,7 +47,7 @@ const Login = () => {
         <div className="flex h-screen font-outfit bg-gradient-to-r from-[#040404] to-[#2d8cff]">
             {/* Left Section - Form */}
             <div className="md:w-3/5 w-full bg-gray-800 flex flex-col justify-center items-center p-10">
-                <h1 className="md:text-5xl text-3xl mb-6 text-white">Welcome to Copsify</h1>
+                <h1 className="md:text-5xl text-3xl mb-6 text-white">Welcome to CopGuide</h1>
 
                 <form className="space-y-4 md:w-3/4 w-full" onSubmit={handleSubmit}>
                     <div>
